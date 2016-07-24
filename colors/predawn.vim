@@ -24,7 +24,7 @@ hi Pmenu ctermfg=109 ctermbg=NONE cterm=NONE guifg=#92bfbf guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=239 cterm=NONE guifg=NONE guibg=#4c4c4c gui=NONE
 hi IncSearch ctermfg=235 ctermbg=152 cterm=NONE guifg=#282828 guibg=#bddcdc gui=NONE
 hi Search ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
-hi Directory ctermfg=228 ctermbg=NONE cterm=NONE guifg=#ecec89 guibg=NONE gui=NONE
+hi Directory ctermfg=109 ctermbg=NONE cterm=NONE guifg=#92bfbf guibg=NONE gui=NONE
 hi Folded ctermfg=243 ctermbg=235 cterm=NONE guifg=#777777 guibg=#282828 gui=NONE
 
 hi Normal ctermfg=231 ctermbg=235 cterm=NONE guifg=#f1f1f1 guibg=#282828 gui=NONE
@@ -105,3 +105,6 @@ hi cssClassName ctermfg=109 ctermbg=NONE cterm=NONE guifg=#92bfbf guibg=NONE gui
 hi cssValueLength ctermfg=228 ctermbg=NONE cterm=NONE guifg=#ecec89 guibg=NONE gui=NONE
 hi cssCommonAttr ctermfg=150 ctermbg=NONE cterm=NONE guifg=#b4d388 guibg=NONE gui=NONE
 hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+
+hi link NERDTreeDir Directory
+hi link NERDTreeDirSlash Normal
